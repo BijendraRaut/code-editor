@@ -19,4 +19,4 @@ This is a simple Code Editor application built with React that includes features
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone - https://github.com/BijendraRaut/code-editor
