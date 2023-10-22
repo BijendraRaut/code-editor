@@ -33,9 +33,9 @@
 
 /* Code icons */
 .code-icon {
-  margin-bottom: 10px;
   display: flex;
   justify-content: flex-end;
+  margin-top: 10px;
 }
 
 /* Code Buttons */
