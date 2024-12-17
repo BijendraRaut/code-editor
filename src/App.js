@@ -51,6 +51,13 @@ function App() {
     <>
       <h1 style={{ textAlign: "center" }}>Code Editor</h1>
       <div className={`code-container ${isLocked ? "locked" : ""}`}>
+        <textarea
+          value={code}
+          onChange={handleCodeChange}
+          className="code-box"
+          spellCheck="false"
+          readOnly={isLocked}
+        />
         <div className="code-icon">
           <button className="code-button" onClick={handleCopy}>
             Copy
@@ -62,13 +69,6 @@ function App() {
             {isLocked ? "Unlock" : "Lock"}
           </button>
         </div>
-        <textarea
-          value={code}
-          onChange={handleCodeChange}
-          className="code-box"
-          spellCheck="false"
-          readOnly={isLocked}
-        />
       </div>
     </>
   );
