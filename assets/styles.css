@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    padding: 40px;
+}
+
+.cred-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cred-container h2 span {
+    color: #6358bc;
+}
+
+.social-login button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.social-button {
+    width: 681px;
+    height: 78px;
+    box-shadow: 0 4 14 0 #000;
+    background: none;
+    border: 1px solid #e2e2e2;
+    border-radius: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
